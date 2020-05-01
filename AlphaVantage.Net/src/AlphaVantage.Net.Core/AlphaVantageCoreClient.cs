@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-using AlphaVantage.Net.Core.Exceptions;
-using AlphaVantage.Net.Core.InternalHttpClient;
-using AlphaVantage.Net.Core.Validation;
+using Tw.AlphaVantage.Net.Core.Exceptions;
+using Tw.AlphaVantage.Net.Core.InternalHttpClient;
+using Tw.AlphaVantage.Net.Core.Validation;
 using JetBrains.Annotations;
 using Microsoft.AspNetCore.WebUtilities;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace AlphaVantage.Net.Core
+namespace Tw.AlphaVantage.Net.Core
 {
     public class AlphaVantageCoreClient
     {

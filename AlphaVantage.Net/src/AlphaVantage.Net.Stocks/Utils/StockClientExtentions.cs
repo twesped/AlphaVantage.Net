@@ -1,7 +1,7 @@
 ﻿using System;
-using AlphaVantage.Net.Stocks.TimeSeries;
+using Tw.AlphaVantage.Net.Stocks.TimeSeries;
 
-namespace AlphaVantage.Net.Stocks.Utils
+namespace Tw.AlphaVantage.Net.Stocks.Utils
 {
     internal static class StockClientExtentions
     {

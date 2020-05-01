@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AlphaVantage.Net.Stocks.TimeSeries
+namespace Tw.AlphaVantage.Net.Stocks.TimeSeries
 {
     /// <summary>
     /// Represent single adjusted element of time series

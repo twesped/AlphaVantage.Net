@@ -1,12 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageId>AlphaVantage.Net.Core</PackageId>
+    <PackageId>Tw.AlphaVantage.Net.Core</PackageId>
     <Description>Low-level wrapper for Alpha Vantage API based on HttpClient and Newtonsoft Json.Net</Description>
-    <Version>1.0.3</Version>
-    <Authors>LutsenkoKirill</Authors>
-    <RepositoryUrl>https://github.com/LutsenkoKirill/AlphaVantage.Net</RepositoryUrl>
+    <Version>1.1.0</Version>
+    <Authors>LutsenkoKirill / Tom Pedersen</Authors>
+    <RepositoryUrl>https://github.com/twesped/AlphaVantage.Net</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Product>TW.AlphaVantage.Net.Core</Product>
+    <AssemblyName>Tw.AlphaVantage.Net.Core</AssemblyName>
+    <RootNamespace>Tw.AlphaVantage.Net.Core</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="JetBrains.Annotations" Version="11.1.0" />

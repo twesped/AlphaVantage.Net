@@ -1,4 +1,4 @@
-﻿namespace AlphaVantage.Net.Core.Validation
+﻿namespace Tw.AlphaVantage.Net.Core.Validation
 {
     /// <summary>
     /// Result of API call validation

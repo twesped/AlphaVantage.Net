@@ -2,8 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using AlphaVantage.Net.Core.Exceptions;
-using AlphaVantage.Net.Core.Validation;
+using Tw.AlphaVantage.Net.Core;
+using Tw.AlphaVantage.Net.Core.Exceptions;
+using Tw.AlphaVantage.Net.Core.Validation;
 using Xunit;
 
 namespace AlphaVantage.Net.Core.Tests

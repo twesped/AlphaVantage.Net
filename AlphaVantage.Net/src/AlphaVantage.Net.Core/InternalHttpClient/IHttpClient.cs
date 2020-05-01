@@ -2,7 +2,7 @@
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace AlphaVantage.Net.Core.InternalHttpClient
+namespace Tw.AlphaVantage.Net.Core.InternalHttpClient
 {
     internal interface IHttpClient
     {

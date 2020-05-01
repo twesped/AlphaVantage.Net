@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AlphaVantage.Net.Core.Exceptions
+namespace Tw.AlphaVantage.Net.Core.Exceptions
 {
     public class AlphaVantageException : Exception
     {

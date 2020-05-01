@@ -1,4 +1,4 @@
-﻿namespace AlphaVantage.Net.Stocks.Parsing.JsonTokens
+﻿namespace Tw.AlphaVantage.Net.Stocks.Parsing.JsonTokens
 {
     internal static class MetaDataJsonTokens
     {

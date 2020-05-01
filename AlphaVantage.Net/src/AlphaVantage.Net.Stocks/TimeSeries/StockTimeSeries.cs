@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace AlphaVantage.Net.Stocks.TimeSeries
+namespace Tw.AlphaVantage.Net.Stocks.TimeSeries
 {
     public class StockTimeSeries
     {

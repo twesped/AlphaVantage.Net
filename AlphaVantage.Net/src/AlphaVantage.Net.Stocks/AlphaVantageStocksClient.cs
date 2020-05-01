@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using AlphaVantage.Net.Core;
-using AlphaVantage.Net.Stocks.BatchQuotes;
-using AlphaVantage.Net.Stocks.Parsing;
-using AlphaVantage.Net.Stocks.TimeSeries;
-using AlphaVantage.Net.Stocks.Utils;
-using AlphaVantage.Net.Stocks.Validation;
+using Tw.AlphaVantage.Net.Core;
+using Tw.AlphaVantage.Net.Stocks.BatchQuotes;
+using Tw.AlphaVantage.Net.Stocks.Parsing;
+using Tw.AlphaVantage.Net.Stocks.TimeSeries;
+using Tw.AlphaVantage.Net.Stocks.Utils;
+using Tw.AlphaVantage.Net.Stocks.Validation;
 
-namespace AlphaVantage.Net.Stocks
+namespace Tw.AlphaVantage.Net.Stocks
 {
     /// <summary>
     /// Client for Alpha Vantage API (stock data only)

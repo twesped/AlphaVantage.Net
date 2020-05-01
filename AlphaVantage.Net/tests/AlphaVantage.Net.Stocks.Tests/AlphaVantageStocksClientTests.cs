@@ -2,7 +2,8 @@
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using AlphaVantage.Net.Stocks.TimeSeries;
+using Tw.AlphaVantage.Net.Stocks;
+using Tw.AlphaVantage.Net.Stocks.TimeSeries;
 using Xunit;
 
 namespace AlphaVantage.Net.Stocks.Tests

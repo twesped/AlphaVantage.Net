@@ -1,4 +1,4 @@
-﻿namespace AlphaVantage.Net.Stocks.TimeSeries
+﻿namespace Tw.AlphaVantage.Net.Stocks.TimeSeries
 {
     public enum TimeSeriesSize
     {

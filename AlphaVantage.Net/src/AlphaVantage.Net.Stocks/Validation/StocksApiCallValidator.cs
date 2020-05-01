@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using AlphaVantage.Net.Core;
-using AlphaVantage.Net.Core.Validation;
+using Tw.AlphaVantage.Net.Core;
+using Tw.AlphaVantage.Net.Core.Validation;
 
-namespace AlphaVantage.Net.Stocks.Validation
+namespace Tw.AlphaVantage.Net.Stocks.Validation
 {
     internal class StocksApiCallValidator : IApiCallValidator
     {

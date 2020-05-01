@@ -1,9 +1,8 @@
 ﻿using System.IO;
 using System.Linq;
-using AlphaVantage.Net.Stocks.Parsing;
-using AlphaVantage.Net.Stocks.TimeSeries;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using Tw.AlphaVantage.Net.Stocks.Parsing;
 using Xunit;
 
 namespace AlphaVantage.Net.Stocks.Tests.StockDataParserTests

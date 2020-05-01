@@ -1,4 +1,4 @@
-﻿namespace AlphaVantage.Net.Core
+﻿namespace Tw.AlphaVantage.Net.Core
 {
     internal static class ApiConstants
     {

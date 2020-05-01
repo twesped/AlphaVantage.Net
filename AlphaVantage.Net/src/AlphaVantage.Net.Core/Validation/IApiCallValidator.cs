@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace AlphaVantage.Net.Core.Validation
+namespace Tw.AlphaVantage.Net.Core.Validation
 {
     /// <summary>
     /// Interface for request's validator. 

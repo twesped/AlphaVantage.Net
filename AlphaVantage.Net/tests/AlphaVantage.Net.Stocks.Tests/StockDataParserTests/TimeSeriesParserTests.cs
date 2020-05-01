@@ -1,7 +1,7 @@
 using System.IO;
-using AlphaVantage.Net.Stocks.Parsing;
-using AlphaVantage.Net.Stocks.Parsing.Exceptions;
-using AlphaVantage.Net.Stocks.TimeSeries;
+using Tw.AlphaVantage.Net.Stocks.Parsing;
+using Tw.AlphaVantage.Net.Stocks.Parsing.Exceptions;
+using Tw.AlphaVantage.Net.Stocks.TimeSeries;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Xunit;

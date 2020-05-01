@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Linq;
-using AlphaVantage.Net.Stocks.BatchQuotes;
-using AlphaVantage.Net.Stocks.Parsing.Exceptions;
-using AlphaVantage.Net.Stocks.Parsing.JsonTokens;
-using AlphaVantage.Net.Stocks.TimeSeries;
+using Tw.AlphaVantage.Net.Stocks.BatchQuotes;
+using Tw.AlphaVantage.Net.Stocks.Parsing.Exceptions;
+using Tw.AlphaVantage.Net.Stocks.Parsing.JsonTokens;
+using Tw.AlphaVantage.Net.Stocks.TimeSeries;
 using JetBrains.Annotations;
 using Newtonsoft.Json.Linq;
 
-namespace AlphaVantage.Net.Stocks.Parsing
+namespace Tw.AlphaVantage.Net.Stocks.Parsing
 {
     internal partial class StockDataParser
     {

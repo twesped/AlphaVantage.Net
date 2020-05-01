@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AlphaVantage.Net.Stocks.BatchQuotes
+namespace Tw.AlphaVantage.Net.Stocks.BatchQuotes
 {
     public class StockQuote
     {

@@ -1,7 +1,7 @@
 ﻿using System;
-using AlphaVantage.Net.Core.Exceptions;
+using Tw.AlphaVantage.Net.Core.Exceptions;
 
-namespace AlphaVantage.Net.Stocks.Parsing.Exceptions
+namespace Tw.AlphaVantage.Net.Stocks.Parsing.Exceptions
 {
     public class StocksParsingException : AlphaVantageException
     {
