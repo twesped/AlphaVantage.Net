@@ -3,7 +3,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>Tw.AlphaVantage.Net.Stocks</PackageId>
     <Description>Client for retrieving stock time series data from Alpha Vantage API based on AlphaVantage.Net.Core</Description>
-    <Version>1.0.3</Version>
+    <Version>1.1.0</Version>
     <Authors>LutsenkoKirill / Tom Pedersen</Authors>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/twesped/AlphaVantage.Net</RepositoryUrl>
