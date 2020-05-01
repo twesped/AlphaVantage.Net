@@ -12,6 +12,6 @@
     <Company>/LutsenkoKirill / Tom Pedersen</Company>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AlphaVantage.Net.Core\AlphaVantage.Net.Core.csproj" />
+    <ProjectReference Include="..\AlphaVantage.Net.Core\Tw.AlphaVantage.Net.Core.csproj" />
   </ItemGroup>
 </Project>

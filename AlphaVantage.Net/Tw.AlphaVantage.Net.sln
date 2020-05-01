@@ -1,16 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{768F93FA-CA7A-4828-8ECA-BC4EF5433811}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaVantage.Net.Stocks", "src\AlphaVantage.Net.Stocks\AlphaVantage.Net.Stocks.csproj", "{6A482C82-3191-4026-9284-2A02DE195A8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tw.AlphaVantage.Net.Stocks", "src\AlphaVantage.Net.Stocks\Tw.AlphaVantage.Net.Stocks.csproj", "{6A482C82-3191-4026-9284-2A02DE195A8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaVantage.Net.Core", "src\AlphaVantage.Net.Core\AlphaVantage.Net.Core.csproj", "{B5A4D94C-91C7-4DDA-9E44-588AA32B19AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tw.AlphaVantage.Net.Core", "src\AlphaVantage.Net.Core\Tw.AlphaVantage.Net.Core.csproj", "{B5A4D94C-91C7-4DDA-9E44-588AA32B19AB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{059E80BE-F596-41CE-ABCA-243EE7987523}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaVantage.Net.Core.Tests", "tests\AlphaVantage.Net.Core.Tests\AlphaVantage.Net.Core.Tests.csproj", "{591EDA71-AF9B-461B-A41F-54266ACB2C64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tw.AlphaVantage.Net.Core.Tests", "tests\AlphaVantage.Net.Core.Tests\Tw.AlphaVantage.Net.Core.Tests.csproj", "{591EDA71-AF9B-461B-A41F-54266ACB2C64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaVantage.Net.Stocks.Tests", "tests\AlphaVantage.Net.Stocks.Tests\AlphaVantage.Net.Stocks.Tests.csproj", "{B7495AA4-20AF-4628-9C3C-4CE384A21EB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tw.AlphaVantage.Net.Stocks.Tests", "tests\AlphaVantage.Net.Stocks.Tests\Tw.AlphaVantage.Net.Stocks.Tests.csproj", "{B7495AA4-20AF-4628-9C3C-4CE384A21EB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +38,16 @@ Global
 		{B7495AA4-20AF-4628-9C3C-4CE384A21EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7495AA4-20AF-4628-9C3C-4CE384A21EB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6A482C82-3191-4026-9284-2A02DE195A8D} = {768F93FA-CA7A-4828-8ECA-BC4EF5433811}
 		{B5A4D94C-91C7-4DDA-9E44-588AA32B19AB} = {768F93FA-CA7A-4828-8ECA-BC4EF5433811}
 		{591EDA71-AF9B-461B-A41F-54266ACB2C64} = {059E80BE-F596-41CE-ABCA-243EE7987523}
 		{B7495AA4-20AF-4628-9C3C-4CE384A21EB0} = {059E80BE-F596-41CE-ABCA-243EE7987523}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EE70D8F-B90E-4A2B-AA00-66E45E6706A4}
 	EndGlobalSection
 EndGlobal
