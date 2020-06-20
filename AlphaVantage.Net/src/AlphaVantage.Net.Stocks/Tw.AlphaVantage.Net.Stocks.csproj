@@ -10,6 +10,7 @@
     <AssemblyName>Tw.AlphaVantage.Net.Stocks</AssemblyName>
     <RootNamespace>Tw.AlphaVantage.Net.Stocks</RootNamespace>
     <Company>/LutsenkoKirill / Tom Pedersen</Company>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\AlphaVantage.Net.Core\Tw.AlphaVantage.Net.Core.csproj" />

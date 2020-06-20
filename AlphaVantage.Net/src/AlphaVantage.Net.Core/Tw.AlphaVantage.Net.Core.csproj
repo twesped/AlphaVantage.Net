@@ -10,6 +10,7 @@
     <Product>TW.AlphaVantage.Net.Core</Product>
     <AssemblyName>Tw.AlphaVantage.Net.Core</AssemblyName>
     <RootNamespace>Tw.AlphaVantage.Net.Core</RootNamespace>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="JetBrains.Annotations" Version="2020.1.0" />
