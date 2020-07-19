@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using Tw.AlphaVantage.Net.Stocks.TimeSeries;
 
 namespace Tw.AlphaVantage.Net.Stocks.Utils
@@ -32,6 +33,17 @@ namespace Tw.AlphaVantage.Net.Stocks.Utils
                 default:
                     return String.Empty;
             }
+        }
+
+        /// <summary>
+        /// Parse string percentage to decimal (0.2% = 0.002)
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns></returns>
+        public static Decimal FromPercentageString(this string value)
+        {
+            var tmp = Decimal.Parse(value.Replace("%", ""), CultureInfo.InvariantCulture);
+            return tmp / 100m;
         }
     }
 }

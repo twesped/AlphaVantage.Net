@@ -104,6 +104,19 @@ namespace Tw.AlphaVantage.Net.Stocks
             return timeSeries;
         }
 
+        public async Task<StockEndPoint> RequestQuoteEndpointAsync(string symbol)
+        {
+            var query = new Dictionary<string, string>()
+            {
+                {StockApiQueryVars.Symbol, symbol},
+            };
+
+            var jObject = await _coreClient.RequestApiAsync(_apiKey, ApiFunction.GLOBAL_QUOTE, query);
+            var endPoint = _parser.ParseEndPoint(jObject);
+
+            return endPoint;
+        }
+
         private async Task<StockTimeSeries> RequestTimeSeriesAsync(
             ApiFunction function, 
             Dictionary<string, string> query)

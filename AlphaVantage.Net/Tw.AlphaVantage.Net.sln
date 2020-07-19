@@ -9,6 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tw.AlphaVantage.Net.Stocks"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tw.AlphaVantage.Net.Core", "src\AlphaVantage.Net.Core\Tw.AlphaVantage.Net.Core.csproj", "{B5A4D94C-91C7-4DDA-9E44-588AA32B19AB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{152DFEDC-BCB6-4724-A916-1201D5725473}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tw.AlphaVantage.Net.Core.Tests", "tests\AlphaVantage.Net.Core.Tests\Tw.AlphaVantage.Net.Core.Tests.csproj", "{45205102-A028-4E07-AB37-08789AD87BE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tw.AlphaVantage.Net.Stocks.Tests", "tests\AlphaVantage.Net.Stocks.Tests\Tw.AlphaVantage.Net.Stocks.Tests.csproj", "{5096295A-ECA4-4908-B964-43B0AEB4AC11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +29,14 @@ Global
 		{B5A4D94C-91C7-4DDA-9E44-588AA32B19AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5A4D94C-91C7-4DDA-9E44-588AA32B19AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5A4D94C-91C7-4DDA-9E44-588AA32B19AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45205102-A028-4E07-AB37-08789AD87BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45205102-A028-4E07-AB37-08789AD87BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45205102-A028-4E07-AB37-08789AD87BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45205102-A028-4E07-AB37-08789AD87BE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5096295A-ECA4-4908-B964-43B0AEB4AC11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5096295A-ECA4-4908-B964-43B0AEB4AC11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5096295A-ECA4-4908-B964-43B0AEB4AC11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5096295A-ECA4-4908-B964-43B0AEB4AC11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +44,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6A482C82-3191-4026-9284-2A02DE195A8D} = {768F93FA-CA7A-4828-8ECA-BC4EF5433811}
 		{B5A4D94C-91C7-4DDA-9E44-588AA32B19AB} = {768F93FA-CA7A-4828-8ECA-BC4EF5433811}
+		{45205102-A028-4E07-AB37-08789AD87BE0} = {152DFEDC-BCB6-4724-A916-1201D5725473}
+		{5096295A-ECA4-4908-B964-43B0AEB4AC11} = {152DFEDC-BCB6-4724-A916-1201D5725473}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4EE70D8F-B90E-4A2B-AA00-66E45E6706A4}

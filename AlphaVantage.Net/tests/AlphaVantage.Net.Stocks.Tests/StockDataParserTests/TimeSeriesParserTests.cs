@@ -25,8 +25,8 @@ namespace AlphaVantage.Net.Stocks.Tests.StockDataParserTests
             Assert.Equal(3, result.DataPoints.Count);
             foreach (var resultDataPoint in result.DataPoints)
             {
-                Assert.IsType(typeof(StockDataPoint), resultDataPoint);
-                Assert.IsNotType(typeof(StockAdjustedDataPoint), resultDataPoint);
+                Assert.IsType<StockDataPoint>(resultDataPoint);
+                Assert.IsNotType<StockAdjustedDataPoint>(resultDataPoint);
             }
         }
         
@@ -45,8 +45,8 @@ namespace AlphaVantage.Net.Stocks.Tests.StockDataParserTests
             Assert.Equal(3, result.DataPoints.Count);
             foreach (var resultDataPoint in result.DataPoints)
             {
-                Assert.IsType(typeof(StockDataPoint), resultDataPoint);
-                Assert.IsNotType(typeof(StockAdjustedDataPoint), resultDataPoint);
+                Assert.IsType<StockDataPoint>(resultDataPoint);
+                Assert.IsNotType<StockAdjustedDataPoint>(resultDataPoint);
             }
         }
         
@@ -65,7 +65,7 @@ namespace AlphaVantage.Net.Stocks.Tests.StockDataParserTests
             Assert.Equal(3, result.DataPoints.Count);
             foreach (var resultDataPoint in result.DataPoints)
             {
-                Assert.IsType(typeof(StockAdjustedDataPoint), resultDataPoint);
+                Assert.IsType<StockAdjustedDataPoint>(resultDataPoint);
                 Assert.NotNull((resultDataPoint as StockAdjustedDataPoint)?.SplitCoefficient);
             }
         }
@@ -85,8 +85,8 @@ namespace AlphaVantage.Net.Stocks.Tests.StockDataParserTests
             Assert.Equal(3, result.DataPoints.Count);
             foreach (var resultDataPoint in result.DataPoints)
             {
-                Assert.IsType(typeof(StockDataPoint), resultDataPoint);
-                Assert.IsNotType(typeof(StockAdjustedDataPoint), resultDataPoint);
+                Assert.IsType<StockDataPoint>(resultDataPoint);
+                Assert.IsNotType<StockAdjustedDataPoint>(resultDataPoint);
             }
         }
         
@@ -105,7 +105,7 @@ namespace AlphaVantage.Net.Stocks.Tests.StockDataParserTests
             Assert.Equal(3, result.DataPoints.Count);
             foreach (var resultDataPoint in result.DataPoints)
             {
-                Assert.IsType(typeof(StockAdjustedDataPoint), resultDataPoint);
+                Assert.IsType<StockAdjustedDataPoint>(resultDataPoint);
             }
         }
         
@@ -124,8 +124,8 @@ namespace AlphaVantage.Net.Stocks.Tests.StockDataParserTests
             Assert.Equal(3, result.DataPoints.Count);
             foreach (var resultDataPoint in result.DataPoints)
             {
-                Assert.IsType(typeof(StockDataPoint), resultDataPoint);
-                Assert.IsNotType(typeof(StockAdjustedDataPoint), resultDataPoint);
+                Assert.IsType<StockDataPoint>(resultDataPoint);
+                Assert.IsNotType<StockAdjustedDataPoint>(resultDataPoint);
             }
         }
         
@@ -144,7 +144,7 @@ namespace AlphaVantage.Net.Stocks.Tests.StockDataParserTests
             Assert.Equal(3, result.DataPoints.Count);
             foreach (var resultDataPoint in result.DataPoints)
             {
-                Assert.IsType(typeof(StockAdjustedDataPoint), resultDataPoint);
+                Assert.IsType<StockAdjustedDataPoint>(resultDataPoint);
             }
         }
         
@@ -155,7 +155,7 @@ namespace AlphaVantage.Net.Stocks.Tests.StockDataParserTests
             var jObject = (JObject) JsonConvert.DeserializeObject(json);
 
             var parser = new StockDataParser();
-            Assert.Throws(typeof(StocksParsingException), () => parser.ParseTimeSeries(jObject));
+            Assert.Throws<StocksParsingException>(() => parser.ParseTimeSeries(jObject));
         }
     }
 }

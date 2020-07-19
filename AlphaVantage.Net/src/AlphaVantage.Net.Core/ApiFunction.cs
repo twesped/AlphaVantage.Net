@@ -15,6 +15,7 @@ namespace Tw.AlphaVantage.Net.Core
         TIME_SERIES_MONTHLY,
         TIME_SERIES_MONTHLY_ADJUSTED,
         BATCH_STOCK_QUOTES,
+        GLOBAL_QUOTE,
         
         // Foreign Exchange (FX)
         CURRENCY_EXCHANGE_RATE,
