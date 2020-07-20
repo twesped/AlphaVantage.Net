@@ -10,9 +10,14 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0" />
   </ItemGroup>
   <ItemGroup>
+    <None Remove="Data\endpoint-quote.json" />
+    <None Remove="Data\symbol-search.json" />
     <None Remove="StockDataParserTests\Data\intraday.json" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Data\endpoint-quote.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="Data\intraday.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
@@ -51,5 +56,10 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\src\AlphaVantage.Net.Stocks\Tw.AlphaVantage.Net.Stocks.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Data\symbol-search.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

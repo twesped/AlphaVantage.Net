@@ -117,6 +117,19 @@ namespace Tw.AlphaVantage.Net.Stocks
             return endPoint;
         }
 
+        public async Task<ICollection<StockSymbolSearch>> RequestSymbolSearchAsync(string keywords)
+        {
+            var query = new Dictionary<string, string>()
+            {
+                {StockApiQueryVars.Keywords, keywords},
+            };
+
+            var jObject = await _coreClient.RequestApiAsync(_apiKey, ApiFunction.SYMBOL_SEARCH, query);
+            var matches = _parser.ParseSymbolSearch(jObject);
+
+            return matches;
+        }
+
         private async Task<StockTimeSeries> RequestTimeSeriesAsync(
             ApiFunction function, 
             Dictionary<string, string> query)

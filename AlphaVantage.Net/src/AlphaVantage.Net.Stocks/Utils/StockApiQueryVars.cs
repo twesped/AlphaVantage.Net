@@ -9,5 +9,7 @@
         public const string IntradayInterval = "interval";
 
         public const string OutputSize = "outputsize";
+
+        public const string Keywords = "keywords";
     }
 }
