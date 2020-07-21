@@ -3,7 +3,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>Tw.AlphaVantage.Net.Core</PackageId>
     <Description>Low-level wrapper for Alpha Vantage API based on HttpClient and Newtonsoft Json.Net</Description>
-    <Version>1.1.3</Version>
+    <Version>1.2.0</Version>
     <Authors>LutsenkoKirill / Tom Pedersen</Authors>
     <RepositoryUrl>https://github.com/twesped/AlphaVantage.Net</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -11,7 +11,7 @@
     <AssemblyName>Tw.AlphaVantage.Net.Core</AssemblyName>
     <RootNamespace>Tw.AlphaVantage.Net.Core</RootNamespace>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <AssemblyVersion>1.1.3.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="JetBrains.Annotations" Version="2020.1.0" />

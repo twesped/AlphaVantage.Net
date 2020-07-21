@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Globalization;
+using Tw.AlphaVantage.Net.Stocks.TechIndicators;
 using Tw.AlphaVantage.Net.Stocks.TimeSeries;
 
 namespace Tw.AlphaVantage.Net.Stocks.Utils
@@ -29,6 +30,53 @@ namespace Tw.AlphaVantage.Net.Stocks.Utils
                 case IntradayInterval.SixtyMin:
                     return "60min";
                     
+                //unreachable:
+                default:
+                    return String.Empty;
+            }
+        }
+
+        public static string ConvertToString(this Interval interval)
+        {
+            switch (interval)
+            {
+                case Interval.OneMin:
+                    return "1min";
+                case Interval.FiveMin:
+                    return "5min";
+                case Interval.FifteenMin:
+                    return "15min";
+                case Interval.ThirtyMin:
+                    return "30min";
+                case Interval.SixtyMin:
+                    return "60min";
+
+                case Interval.Daily:
+                    return "daily";
+                case Interval.Weekly:
+                    return "weekly";
+                case Interval.Monthly:
+                    return "monthly";
+
+                //unreachable:
+                default:
+                    return String.Empty;
+            }
+        }
+
+        public static string ConvertToString(this SeriesType interval)
+        {
+            switch (interval)
+            {
+                case SeriesType.Open:
+                    return "open";
+                case SeriesType.Close:
+                    return "close";
+                case SeriesType.High:
+                    return "high";
+                case SeriesType.Low:
+                    return "low";
+                
                 //unreachable:
                 default:
                     return String.Empty;
